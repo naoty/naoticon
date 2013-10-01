@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "./lib/naoticon"
+Naoticon::Builder.build
