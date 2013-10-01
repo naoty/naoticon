@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 
 require_relative "../lib/naoticon"
-Naoticon::Builder.build
+
+scale = ARGV[0].nil? ? 1 : ARGV[0].to_i
+Naoticon::Builder.build(scale)
