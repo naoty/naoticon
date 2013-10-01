@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require "./lib/naoticon"
+require_relative "../lib/naoticon"
 Naoticon::Builder.build
